@@ -1,7 +1,5 @@
 /*
-===========================
- Automated Reddit Comment Remover
-===========================
+
 INSTRUCTIONS:
 
 1. Go to: https://old.reddit.com/user/YOUR_USERNAME/overview
@@ -10,16 +8,7 @@ INSTRUCTIONS:
 
 2. Open the browser console (F12 → Console tab).
 
-3. Paste and run this script.
-
-It will:
-- Edit 2 comments at a time (replace text with random garbage)
-- Save them
-- Delete them
-- Wait 10 seconds before processing the next 2
-- Stop when no editable comments remain
 */
-
 (function deleteCommentsInBatches() {
     function generateRandomText(length) {
         const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
